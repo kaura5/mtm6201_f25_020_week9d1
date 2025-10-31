@@ -1,0 +1,10 @@
+:root{
+    /* will effect all the elements with animate css */
+    --animate-duration:4s;
+}
+
+.animate__animated.animate__pulse{
+    /* will effect only specific class */
+    --animate-repeat: 5;
+     --animate-duration: 4s;
+}

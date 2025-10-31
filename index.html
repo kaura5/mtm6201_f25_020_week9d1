@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- animate cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- on scroll animate -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- paper css framework -->
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Week 9</title>
+</head>
+
+<body>
+    <header>
+        <nav class="border">
+            <div class="nav-brand">
+                <h1><a href="#">Get PaperCSS</a></h1>
+            </div>
+            <div class="collapsible">
+                <input id="collapsible1" type="checkbox" name="collapsible1">
+                <label for="collapsible1">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </label>
+                <div class="collapsible-body">
+                    <ul class="inline">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Local</a></li>
+                        <li><a href="#">International</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="animate__animated animate__pulse">Heading level 1</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla porro pariatur iure sequi et officia,
+            expedita accusantium quis explicabo autem dicta perspiciatis unde, earum necessitatibus voluptatum tenetur
+            laudantium molestias quasi.</p>
+        <!-- please add a button and apply any animation from animate.css -->
+        <button
+            class="animate__animated animate__bounce animate__fast animate__delay-3s animate__infinite">Save</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, voluptate provident nihil, earum qui,
+            sint fuga ipsa soluta excepturi vel consequuntur quod? Animi maiores rerum distinctio, laboriosam molestiae
+            aspernatur voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni non delectus rerum architecto explicabo
+            incidunt cum saepe perferendis sequi inventore est quaerat unde excepturi accusantium, ab accusamus fugiat?
+            Architecto, repudiandae!</p>
+        <p data-aos="zoom-in-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, distinctio aliquid
+            omnis ullam quia fugiat vel nemo consectetur quos id deleniti aperiam veniam! Architecto fugiat id velit
+            voluptatibus corporis. Sunt!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque cumque eum ratione reiciendis quas
+            praesentium cum magnam accusantium odit sunt quasi facilis corrupti ipsa, ducimus atque ipsum iure placeat
+            et!</p>
+        <!-- my projects -->
+        <section>
+            <h2>Things I worked on</h2>
+            <div class="row">
+                <div class="card sm-6 md-3 col">
+                    <img src="https://picsum.photos/768" alt="Card example image">
+
+                    <div class="card-body">
+                        <h3 class="card-title">My awesome Paper card!</h3>
+                        <p class="card-text">Notice that the card width in this example have been set to 20rem,
+                            otherwise it will try to fill the current container/row where the card is.</p>
+                        <button>Let me go here!</button>
+                    </div>
+                </div>
+                <div class="card sm-6 md-3 col">
+                    <img src="https://picsum.photos/768" alt="Card example image">
+
+                    <div class="card-body">
+                        <h3 class="card-title">My awesome Paper card!</h3>
+                        <p class="card-text">Notice that the card width in this example have been set to 20rem,
+                            otherwise it will try to fill the current container/row where the card is.</p>
+                        <button>Let me go here!</button>
+                    </div>
+                </div>
+                <div class="card sm-6 md-3 col">
+                    <img src="https://picsum.photos/768" alt="Card example image">
+
+                    <div class="card-body">
+                        <h3 class="card-title">My awesome Paper card!</h3>
+                        <p class="card-text">Notice that the card width in this example have been set to 20rem,
+                            otherwise it will try to fill the current container/row where the card is.</p>
+                        <button>Let me go here!</button>
+                    </div>
+                </div>
+                <div class="card sm-6 md-3 col">
+                    <img src="https://picsum.photos/768" alt="Card example image">
+
+                    <div class="card-body">
+                        <h3 class="card-title">My awesome Paper card!</h3>
+                        <p class="card-text">Notice that the card width in this example have been set to 20rem,
+                            otherwise it will try to fill the current container/row where the card is.</p>
+                        <button>Let me go here!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
